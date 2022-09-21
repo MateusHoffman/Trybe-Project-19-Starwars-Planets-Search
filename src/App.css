@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+/* ===== Scrollbar CSS ===== */
+/* Firefox */
+* {
+  scrollbar-width: auto;
+  scrollbar-color: #141a24 #828282;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 13px;
+  height: 13px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #4d4d4d;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #232d3f;
+  border-radius: 10px;
+  border: 0px none #ffffff;
+}
+
+.home {
+  background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+}
+
+body {
+  height: 100vh;
+}
+
+.main {
+  align-items: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  /* min-height: 100vh; */
+  min-width: 100vw;
+}

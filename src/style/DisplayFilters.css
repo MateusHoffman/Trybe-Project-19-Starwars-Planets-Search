@@ -1,0 +1,38 @@
+.display-filters-container {
+  display: flex;
+  flex-grow: 1;
+  flex-wrap: wrap;
+  font-size: 12px;
+  gap: 1rem;
+  justify-content: flex-start;
+  list-style: none;
+  margin: 20px auto;
+  max-width: 95%;
+  text-transform: uppercase;
+}
+
+.filter-container {
+  align-items: center;
+  border: 1px solid #e1e5eb;
+  border-radius: 6px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.06) , 0 1px 3px rgba(0, 0, 0, 0.1);
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+  text-align: center;
+  width: 30%;
+  padding: 0.2rem;
+}
+
+.filter-container > button {
+  overflow-y: hidden;
+}
+
+.filter-container-description {
+  width: 70%;
+}
+
+.trash {
+  color: white;
+  font-size: 20px;
+}
