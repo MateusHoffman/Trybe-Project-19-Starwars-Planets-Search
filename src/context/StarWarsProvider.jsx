@@ -21,7 +21,7 @@ function StarWarsProvider({ children }) {
 
   useEffect(() => {
     setLoading(true);
-    fetch('https://swapi.dev/api/planets')
+    fetch('https://swapi-trybe.herokuapp.com/api/planets/')
       .then((response) => response.json())
       .then(({ results }) => {
         results.map((planet) => delete planet.residents);
