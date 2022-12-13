@@ -2,6 +2,8 @@
 
 Project responsible for presenting my skills with React, JavaScript, React Testing Library, Jest, React Router, React Hooks, HTML and CSS
 
+### 📢 The API that was used at the time of development is offline
+
 ## Access the project:
 ### https://trybe-project-19-starwars-planets-search-lmld.vercel.app/
 
