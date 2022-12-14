@@ -1,6 +1,6 @@
 # 💚💚 Trybe-Project-19-Starwars-Planets-Search 💚💚
 
-Project responsible for presenting my skills with React, JavaScript, React Testing Library, Jest, React Router, React Hooks, HTML and CSS
+Project responsible for presenting my skills with React, JavaScript, React Testing Library, Jest, React Router, React Hooks, HTML and CSS 
 
 ### 📢 The API that was used at the time of development is offline
 
